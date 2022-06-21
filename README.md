@@ -44,6 +44,9 @@ The only original thing being done is the editing and gathering of all materials
    2b **Manual Install**: Rename `.env.template` to `.env` and replace all values with the appropriate fields. To get Reddit keys (**required**), visit [the Reddit Apps page.](https://www.reddit.com/prefs/apps) TL;DR set up an app that is a "script". Copy your keys into the `.env` file, along with whether your account uses two-factor authentication.
 
 3. Install [SoX](https://sourceforge.net/projects/sox/files/sox/)
+
+4. Add the directory of your SoX installation to the Path system variables (see https://github.com/elebumm/RedditVideoMakerBot/issues/613)
+   and move the added directory all the way to the top of the list of directories.
    
 4. Run `pip install -r requirements.txt`
 
